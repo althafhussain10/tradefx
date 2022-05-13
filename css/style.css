@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+.container-fluid {
+    padding-left: 0px!important;
+    padding-right: 0!important;
+    margin-right: -15px!important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    position: relative;
+}
+.buttonContainer button:first-child {
+    background-image: linear-gradient(to right, #36AE4A , #C6EB15);
+    margin-right: 0.8rem;
+    width: 98px;
+    height: 41px;
+}
+.buttonContainer button:last-child {
+    border: 1px solid #39AF49;
+    width: 96px;
+    height: 40px;
+}
+.buttonContainer button:last-child:hover {
+    color: #fff!important;
+    background-image: linear-gradient(to right, #36AE4A , #C6EB15);
+    border-color: transparent !important;
+}
+.btn {
+    border-radius: 50px;
+}
+.logoImg {
+    position: relative;
+    left: 35px;
+}
+.curveShape {
+    position: absolute;
+    top: -21.271461486816406px;
+    left: -215.932991px;
+    width: 500px;
+    height: 304px;
+    z-index: -1;
+}
+.ballShape {
+    position: absolute;
+    top: 15px;
+    left: -4%;
+}
+.mainContainer {
+    margin-top: 200px;
+    position: relative;
+}
+.mainContainer section h2 {
+    color: #43B345;
+}
+.mainContainer section .cfd {
+    color: #030303;
+}
+.mainContainer button {
+    width: 209px;
+    background-image: linear-gradient(to right, #36AE4A , #C6EB15);
+    margin-right: 0.8rem;
+    height: 40px;
+}
+.mainContainer .demoBtn {
+    color: #41B346;
+    font-weight: bold;
+    text-decoration: none;
+}
+.linesShape {
+    position: relative;
+    top: 70px;
+}
+.ellipseRight {
+    position: absolute;
+    margin-top: -300px;
+    right: -450px;
+    width: 625px;
+    height: 625px;
+}
+.account-access span {
+    color: #38AF49;
+}
+.horizontalLine {
+    margin: 0 auto;
+    display: block;
+    width: 127px;
+    height: 2px!important;
+    background: transparent linear-gradient(270deg, #C6EA19 0%, #36AE4A 100%) 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+}
+.accountBg {
+    background-image: linear-gradient(#FFFFFF00 , #F9FBFB78 , #F2F6F7);
+}
+.ellipseLeft {
+    position: absolute;
+    margin-top: -170px;
+    left: -150px;
+    width: 400px;
+    height: 400px;
+}
+.mt-120 {
+    margin-top: 120px;
+}
+.linesCurve {
+    position: absolute;
+    z-index: -1;
+}
+.trading,.analysis {
+    position: relative;
+}
+.ellipsesmall {
+    margin-top: 110px;
+    margin-left: 50px;
+}
+.text-card,
+.text-cardy,
+.text-cards
+ {
+    position: relative;
+    bottom: 115px;
+    left: 37%;
+}
+.text-card h4,
+.text-cardy h4,
+.text-cards h4{
+    font-size: 10px !important;
+}
+.mtl-160 {
+    margin-top: -160px;
+    margin-left: -100px;
+}
+@media(max-width: 767px) {
+    .resp-sm {
+        margin: 1.5rem 0!important;
+    }
+}
+@media(max-width: 991px) {
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media(max-width: 991px) and (min-width: 400px) {
+    .ellipseRight {
+        margin-top: -250px !important;
+        right: -380px !important;
+        width: 480px !important;
+        height: 480px !important;
+    }
+    .account-access  {
+        font-size: 18px !important;
+    }
+}
+@media(max-width: 399px) and (min-width: 300px) {
+    .ellipseRight {
+        margin-top: -250px !important;
+        right: -350px !important;
+        width: 430px !important;
+        height: 430px !important;
+    }
+    .account-access {
+        font-size: 18px !important;
+    }
+}
